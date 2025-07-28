@@ -1,4 +1,4 @@
-#Class to check if input parameters are suitable for MultiOutputProblem
+#Class to check if input parameters are suitable for MultiOutputProblem (Only shape of values checked)
 class MultiCheck(object):
     def __init__(self, model, times, values):
 
